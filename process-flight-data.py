@@ -288,7 +288,6 @@ def correctTimes(flightData, flightLength_s):
     return flightData
     
 def main():
-    # Example usage: python process-flight-data.py example-aptos-primary-log.dat example-aptos-monitor-log.dat 1 01/04/23 1000
     primaryFlightDateFilename = sys.argv[1]
     monitorFlightDateFilename = sys.argv[2]
     flightNumber = int(sys.argv[3])
